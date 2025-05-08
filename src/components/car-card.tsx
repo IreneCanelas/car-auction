@@ -9,7 +9,7 @@ import Detail from "./detail";
 export default function CarCard({ data }: { data: Car }) {
 	const router = useRouter();
 
-	const currentDate = new Date(2024, 3, 14);
+	const currentDate = new Date(2024, 3, 14, 8);
 
 	const { timeLeft } = useTimer({
 		timeInterval: Math.floor(
