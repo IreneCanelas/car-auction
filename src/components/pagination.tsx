@@ -21,6 +21,7 @@ export default function Pagination({
 			{!isFirstPage && (
 				<>
 					<button
+						className="cursor-pointer"
 						type="button"
 						aria-label="first-page"
 						onClick={() =>
@@ -30,6 +31,7 @@ export default function Pagination({
 						<ChevronsLeft />
 					</button>
 					<button
+						className="cursor-pointer"
 						type="button"
 						aria-label="previous-page"
 						onClick={() =>
@@ -47,6 +49,7 @@ export default function Pagination({
 			{!isLastPage && (
 				<>
 					<button
+						className="cursor-pointer"
 						type="button"
 						aria-label="next-page"
 						onClick={() =>
@@ -59,6 +62,7 @@ export default function Pagination({
 						<ChevronRight />
 					</button>
 					<button
+						className="cursor-pointer"
 						type="button"
 						aria-label="last-page"
 						onClick={() =>
